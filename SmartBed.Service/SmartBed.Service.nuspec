@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Dragon Luo</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://www.xyhis.com/</licenseUrl>
+    <projectUrl>http://www.xyhis.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>$copyright$</copyright>
+    <tags>HIS</tags>
+  </metadata>
+</package>

@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartBed.Contract", "SmartBed.Contract\SmartBed.Contract.csproj", "{445A7ABD-9BFD-4BB0-A92A-E790B9AA7F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartBed.Domain", "SmartBed.Domain\SmartBed.Domain.csproj", "{49A6FDB7-71E1-4E90-924D-1558F27E149C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartBed.Service", "SmartBed.Service\SmartBed.Service.csproj", "{F3CBE487-6A15-46D3-8D51-FEDB89377BBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{5BD2C8D2-31D9-4199-9F33-54691DE1B8FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ED955937-E38A-4636-8588-BE0C82F5AD21}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		SharedAssemblyInfo.cs = SharedAssemblyInfo.cs
+		中央医护监控接口.xlsx = 中央医护监控接口.xlsx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiUnitTestProject", "ApiUnitTestProject\ApiUnitTestProject.csproj", "{D9D6BF55-38F6-4BCC-8076-EC0D11EAEA2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{445A7ABD-9BFD-4BB0-A92A-E790B9AA7F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445A7ABD-9BFD-4BB0-A92A-E790B9AA7F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445A7ABD-9BFD-4BB0-A92A-E790B9AA7F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445A7ABD-9BFD-4BB0-A92A-E790B9AA7F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A6FDB7-71E1-4E90-924D-1558F27E149C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A6FDB7-71E1-4E90-924D-1558F27E149C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A6FDB7-71E1-4E90-924D-1558F27E149C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A6FDB7-71E1-4E90-924D-1558F27E149C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3CBE487-6A15-46D3-8D51-FEDB89377BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3CBE487-6A15-46D3-8D51-FEDB89377BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3CBE487-6A15-46D3-8D51-FEDB89377BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3CBE487-6A15-46D3-8D51-FEDB89377BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD2C8D2-31D9-4199-9F33-54691DE1B8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD2C8D2-31D9-4199-9F33-54691DE1B8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD2C8D2-31D9-4199-9F33-54691DE1B8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD2C8D2-31D9-4199-9F33-54691DE1B8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9D6BF55-38F6-4BCC-8076-EC0D11EAEA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9D6BF55-38F6-4BCC-8076-EC0D11EAEA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9D6BF55-38F6-4BCC-8076-EC0D11EAEA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9D6BF55-38F6-4BCC-8076-EC0D11EAEA2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
